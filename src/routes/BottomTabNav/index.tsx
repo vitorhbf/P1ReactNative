@@ -1,7 +1,7 @@
 import { Image } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { TelaInicial } from '../../screens/TelaInicial/index'; 
-import { User } from '../../screens/Usuario/Index'; 
+import { TelaInicial } from '../../screens/TelaInicial/index';
+import { User } from '../../screens/Usuario/Index';
 import { Login } from '../../screens/Login/Index';
 import InicialIcon from '../../img/cadeado.png';
 import InicialIcon2 from '../../img/code.png';
@@ -13,7 +13,7 @@ const Tab = createBottomTabNavigator<RootTabParamList>();
 export type RootTabParamList = {
 	TelaInicial: {};
 	Login: {};
-    User: {};
+	User: {};
 
 }
 
@@ -53,7 +53,7 @@ export function BottomTabRoutes() {
 				name="Login"
 				component={Login}
 			/>
-            <Tab.Screen
+			<Tab.Screen
 				options={{
 					tabBarIcon: ({ color }) => (
 						<Image

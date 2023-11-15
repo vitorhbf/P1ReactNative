@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'flex-end',
     backgroundColor: "#EC1C24",
-    paddingBottom:10
+    paddingBottom: 10
   },
   leftSection: {
     flex: 1,
@@ -47,87 +47,87 @@ const styles = StyleSheet.create({
     height: 40,
     marginLeft: 30,
   },
-  menu:{
+  menu: {
     width: 40,
     height: 40,
     flexDirection: "row",
   },
-  imgCentro:{
+  imgCentro: {
     width: 'auto',
     height: 400,
-    
+
   },
   middleSquareContainer: {
     flexDirection: "row",
     justifyContent: "center",
-    marginTop: 20, 
+    marginTop: 20,
   },
   middleSquare: {
     width: 100,
     height: 100,
-    backgroundColor: "#FFFFFF", 
+    backgroundColor: "#FFFFFF",
     marginHorizontal: 10,
     borderRadius: 6,
-    justifyContent: 'flex-start', 
-    alignItems: 'center',   
+    justifyContent: 'flex-start',
+    alignItems: 'center',
   },
   middleRight: {
     width: 100,
     height: 100,
-    backgroundColor: "#FF0800", 
+    backgroundColor: "#FF0800",
     marginHorizontal: 10,
-    borderRadius: 6, 
-    justifyContent: 'flex-start', 
-    alignItems: 'center', 
-    
+    borderRadius: 6,
+    justifyContent: 'flex-start',
+    alignItems: 'center',
+
   },
-  imgEntrar:{
+  imgEntrar: {
     marginTop: 20,
     width: 30,
     height: 30,
   },
-  textSquare:{
+  textSquare: {
     textAlign: 'center',
     fontSize: 14,
     fontWeight: 'bold',
     color: '#fff',
   },
-  textSquare2:{
+  textSquare2: {
     textAlign: 'center',
     fontSize: 14,
     fontWeight: 'bold',
     color: '#C0C0C0',
-    marginTop:10
+    marginTop: 10
   },
-  containerBotton:{
+  containerBotton: {
     flexDirection: 'row',
     height: 100,
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: "#FFFFFF",
     marginTop: 20,
-    borderRadius: 10, 
+    borderRadius: 10,
     paddingBottom: 40,
     position: "relative",
   },
   imgClick: {
     width: 30,
     height: 30,
-    marginRight: 10, 
+    marginRight: 10,
   },
   textClick: {
     fontSize: 16,
     color: "#B31B1B",
   },
-  teste:{
+  teste: {
     height: 5,
     width: "20%",
-    backgroundColor: "#BEBFC5", 
+    backgroundColor: "#BEBFC5",
     borderRadius: 5,
-    position: "absolute", 
+    position: "absolute",
     top: 0,
-    marginTop:8,
-    
+    marginTop: 8,
+
   }
 });
 

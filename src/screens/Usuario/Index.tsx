@@ -35,7 +35,7 @@ export const User = () => {
         <TouchableOpacity style={styles.rightSection}>
           <Image style={styles.rightImage} source={chat} />
         </TouchableOpacity>
-        
+
         <TouchableOpacity style={styles.rightSection}>
           <Image style={styles.rightImage} source={sino} />
         </TouchableOpacity>

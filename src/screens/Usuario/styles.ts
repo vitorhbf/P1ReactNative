@@ -3,23 +3,23 @@ import { Platform, StyleSheet } from "react-native";
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#F0F8FF",
+    backgroundColor: "#EC1C24",
   },
   containerTopo: {
     flexDirection: 'row',
     height: 90,
     justifyContent: 'center',
     backgroundColor: "#EC1C24",
-    paddingBottom:10,
-    alignItems:"baseline",
+    paddingBottom: 10,
+    alignItems: "baseline",
     marginTop: 30
   },
   containerTopo2: {
     flexDirection: 'column',
     height: 90,
     backgroundColor: "#EC1C24",
-    paddingBottom:10,
-    alignItems:"flex-start",
+    paddingBottom: 10,
+    alignItems: "flex-start",
   },
   leftSection: {
     flex: 1,
@@ -34,23 +34,23 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   rightSection: {
-    
+
     flexDirection: 'row',
     alignItems: 'center',
     marginRight: 5,
   },
-  textTop:{
+  textTop: {
     fontSize: 14,
     color: "#fff",
     marginLeft: 10,
-    
+
 
   },
-  textTop2:{
+  textTop2: {
     fontSize: 16,
     color: "#fff",
     marginLeft: 10,
-    
+
   },
   image: {
     width: 40,
@@ -67,7 +67,7 @@ const styles = StyleSheet.create({
     height: 20,
     marginLeft: 30,
   },
-  menu:{
+  menu: {
     width: 40,
     height: 40,
     flexDirection: "row",
@@ -76,39 +76,39 @@ const styles = StyleSheet.create({
     width: 325,
     height: 100,
     backgroundColor: "#fff",
-    alignSelf: 'center', 
+    alignSelf: 'center',
     marginTop: -30,
     borderRadius: 5,
-    flexDirection: 'row', 
+    flexDirection: 'row',
     alignItems: 'center',
-    
+
   },
   buttonText: {
     textAlign: 'center',
-    color: '#000', 
-    fontSize: 10, 
-    marginTop: 0, 
-    alignItems: 'center', 
-    
+    color: '#000',
+    fontSize: 10,
+    marginTop: 0,
+    alignItems: 'center',
+
   },
-  imgCentro:{
+  imgCentro: {
     width: 80,
     height: 80,
     marginRight: 10,
   },
-  ButtonSaldo:{
+  ButtonSaldo: {
     flexDirection: 'row',
     height: 50,
     width: 300,
     justifyContent: 'space-between',
     alignItems: 'center',
-    alignSelf: 'center', 
+    alignSelf: 'center',
     backgroundColor: "#FFFFFF",
     marginTop: 20,
-    borderRadius: 10, 
-    
+    borderRadius: 10,
+
   },
-  textSaldo:{
+  textSaldo: {
 
     textAlign: 'left',
     fontSize: 18,
@@ -117,104 +117,104 @@ const styles = StyleSheet.create({
   middleSquareContainer: {
     flexDirection: "row",
     justifyContent: "center",
-    marginTop: 20, 
+    marginTop: 20,
   },
   middleSquare: {
     width: 105,
     height: 100,
-    backgroundColor: "#FFFFFF", 
+    backgroundColor: "#FFFFFF",
     marginHorizontal: 10,
     borderRadius: 6,
-    justifyContent: 'flex-start', 
-    alignItems: 'center',   
+    justifyContent: 'flex-start',
+    alignItems: 'center',
   },
   middleRight: {
     width: 105,
     height: 100,
-    backgroundColor: "#FF0800", 
+    backgroundColor: "#FF0800",
     marginHorizontal: 10,
-    borderRadius: 6, 
-    justifyContent: 'flex-start', 
-    alignItems: 'center', 
-    
+    borderRadius: 6,
+    justifyContent: 'flex-start',
+    alignItems: 'center',
+
   },
-  imgEntrar:{
+  imgEntrar: {
     marginTop: 20,
     width: 30,
     height: 30,
   },
-  imgPix:{
+  imgPix: {
     marginTop: 20,
     width: 50,
     height: 30,
   },
-  textSquare:{
+  textSquare: {
     textAlign: 'center',
     fontSize: 14,
     fontWeight: 'bold',
     color: '#fff',
   },
-  textSquare2:{
+  textSquare2: {
     textAlign: 'center',
     fontSize: 14,
     fontWeight: 'bold',
     color: '#C0C0C0',
-    marginTop:10
+    marginTop: 10
   },
-  textCartao:{
+  textCartao: {
 
     fontSize: 18,
     fontWeight: 'bold',
     color: '#000',
-    marginTop:5,
+    marginTop: 5,
     marginLeft: 10
   },
-  textCardOnline:{
+  textCardOnline: {
     fontSize: 20,
     color: '#CC3333',
   },
-    ButtonCardOnline:{
+  ButtonCardOnline: {
     flexDirection: 'row',
     height: 50,
     width: 300,
     justifyContent: 'center',
     alignItems: 'center',
-    alignSelf: 'center', 
+    alignSelf: 'center',
     backgroundColor: "#FFFFFF",
     marginTop: 5,
     borderRadius: 10,
-    borderWidth: 2, 
+    borderWidth: 2,
     borderColor: "#CC3333",
   },
-  containerBotton:{
+  containerBotton: {
     flexDirection: 'row',
     height: 100,
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: "#FFFFFF",
     marginTop: 20,
-    borderRadius: 10, 
+    borderRadius: 10,
     paddingBottom: 40,
     position: "relative",
   },
   imgClick: {
     width: 30,
     height: 30,
-    marginRight: 10, 
+    marginRight: 10,
   },
   textClick: {
     fontSize: 16,
     color: "#B31B1B",
   },
-  teste:{
+  teste: {
     height: 5,
     width: "20%",
-    backgroundColor: "#BEBFC5", 
+    backgroundColor: "#BEBFC5",
     borderRadius: 5,
-    position: "absolute", 
+    position: "absolute",
     top: 0,
-    marginTop:8,
-    
+    marginTop: 8,
+
   }
 });
 

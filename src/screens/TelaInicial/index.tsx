@@ -40,7 +40,7 @@ export const TelaInicial = () => {
           <Image style={styles.imgEntrar} source={chat} />
           <Text style={styles.textSquare2} >Ajuda</Text>
         </TouchableOpacity>
-        
+
         <TouchableOpacity style={styles.middleSquare}>
           <Image style={styles.imgEntrar} source={lock} />
           <Text style={styles.textSquare2} >ID Santander</Text>
@@ -63,4 +63,4 @@ export const TelaInicial = () => {
   );
 };
 
- 
+
