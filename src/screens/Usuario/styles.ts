@@ -3,7 +3,7 @@ import { Platform, StyleSheet } from "react-native";
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#EC1C24",
+    backgroundColor: "#F0F8FF",
   },
   containerTopo: {
     flexDirection: 'row',
@@ -162,7 +162,6 @@ const styles = StyleSheet.create({
     marginTop: 10
   },
   textCartao: {
-
     fontSize: 18,
     fontWeight: 'bold',
     color: '#000',
@@ -181,7 +180,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     alignSelf: 'center',
     backgroundColor: "#FFFFFF",
-    marginTop: 5,
+    marginTop: 10,
     borderRadius: 10,
     borderWidth: 2,
     borderColor: "#CC3333",
